@@ -1,0 +1,56 @@
+@font-face{
+    font-family: Tina;
+    src: url(fonts/bromello.ttf)
+}
+body{
+    background-image: url(images/beachpicturetumblr.jpeg);
+    font-family: "Tina", monospace;
+    background-color: #ffb3cc;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+h1{
+    font-family: "Tina", monospace;
+    text-align: center;
+    font-size: 525%;
+}
+p {
+    font-size: 62px
+}
+p {
+    text-align: center;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow:hidden;
+    background-color: white;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+#nav li a:hover {
+    background-color: white;
+    color: pink;
+}
+#nav li a:active {
+    background-color: white;
+    color: pink;
+}
+#SHAWNWATCH1 {
+    border: solid white 3px;
+    margin: 50px;
+    padding: 30px;
+}
+
