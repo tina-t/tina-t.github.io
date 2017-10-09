@@ -2,9 +2,13 @@
     font-family: Tina;
     src: url(fonts/bromello.ttf)
 }
+@font-face{
+    font-family: Trinh;
+    src: url(fonts/eleganttypewriter.ttf)
+}
 body{
     background-image: url(images/beachpicturetumblr.jpeg);
-    font-family: "Tina", monospace;
+    font-family: "Trinh", monospace;
     background-color: #ffb3cc;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -16,11 +20,73 @@ h1{
     text-align: center;
     font-size: 525%;
 }
+h2{ 
+    font-family: "Trinh", monospace;
+    font-size: 142px;
+    text-align: center;
+}
+h3{
+    font-family: "Trinh", monospace;
+    font-size: 48px;
+    text-align: center;
+}
+h4{
+    font-family: "Trinh", monospace;
+    font-size: 42px;
+    text-align: center;
+}
+h5{
+    font-family: "Trinh", monospace;
+    font-size: 36px;
+    text-align: center;
+}
+h6{
+    font-family: "Tina", monospace;
+    font-size: 32px; 
+    text-align: left;
+}
 p {
-    font-size: 62px
+    font-family: "Trinh", monospace;
+    font-size: 34px;
 }
 p {
     text-align: center;
+}
+div {
+    font-family: "Tina", monospace;
+    font-size: 46px;
+    text-align: center;
+}
+table {
+    font-family: "Trinh", monospace;
+    font-size: 62px;
+    text-align: center;
+}
+th {
+    font-family: "Tina", monospace;
+    font-size: 32px;
+    text-align: center
+}
+tr {
+    font-family: "Trinh", monospace;
+    font-size: 26px;
+    text-align: center;
+}
+ol {
+    font-family: "Trinh", monospace;
+    font-size: 26px;
+    text-align: left;
+}
+ul {
+    font-family: "Trinh", monospace;
+    font-size: 26px;
+    text-align: left;
+}
+a {
+    font-family: "Trinh", monospace;
+    font-size: 24px;
+    text-align: center;
+    color: white;
 }
 #nav {
     list-style-type: none;
@@ -48,9 +114,3 @@ p {
     background-color: white;
     color: pink;
 }
-#SHAWNWATCH1 {
-    border: solid white 3px;
-    margin: 50px;
-    padding: 30px;
-}
-
